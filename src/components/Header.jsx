@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/header.scss";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [showLinks, setShowlinks] = useState(false);
@@ -14,34 +15,34 @@ const Header = () => {
       <div className="navbar_logo"> Logo </div>
       <ul className="navbar_links">
         <li className="navbar_item slideInDown-1">
-          <a href="" className="navbar_link">
+          <Link to="/" className="navbar_link">
             Accueil
-          </a>
+          </Link>
         </li>
         <li className="navbar_item slideInDown-2">
-          <a href="" className="navbar_link">
+          <Link to="/VotreOsteopathe" className="navbar_link">
             Votre ostéopathe
-          </a>
+          </Link>
         </li>
         <li className="navbar_item slideInDown-3">
-          <a href="" className="navbar_link">
+          <Link to="/Partenaire" className="navbar_link">
             Devenir Partenaire
-          </a>
+          </Link>
         </li>
         <li className="navbar_item slideInDown-4">
-          <a href="" className="navbar_link">
+          <Link to="/Faq" className="navbar_link">
             FAQ
-          </a>
+          </Link>
         </li>
         <li className="navbar_item slideInDown-5">
-          <a href="" className="navbar_link">
+          <Link to="/Contact" className="navbar_link">
             Contact
-          </a>
+          </Link>
         </li>
         <li className="navbar_item slideInDown-6">
-          <a href="" className="navbar_link">
+          <Link to="/TarifsetRemboursements" className="navbar_link">
             Tarifs & Remboursements
-          </a>
+          </Link>
         </li>
       </ul>
       <button className="navbar_burger" onClick={handleShowLinks}>
