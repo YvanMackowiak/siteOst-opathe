@@ -1,0 +1,17 @@
+.main {
+  min-height: 98vh;
+}
+
+footer {
+  background-color: #ffdcba;
+  display: flex;
+  justify-content: space-between;
+  div {
+    margin: 0 2% 0 2%;
+  }
+}
+.copyright {
+  a {
+    line-height: 50px;
+  }
+}

@@ -12,7 +12,11 @@ const Header = () => {
 
   return (
     <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
-      <div className="navbar_logo"> Logo </div>
+      <div className="navbar_logo">
+        <span className="h1">
+          <h1 className="h1">Ostéopathe </h1> Nicolaieff
+        </span>
+      </div>
       <ul className="navbar_links">
         <li className="navbar_item slideInDown-1">
           <Link to="/" className="navbar_link">

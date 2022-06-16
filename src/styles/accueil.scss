@@ -1,4 +1,41 @@
-.main {
-  min-height: 200vh;
-  padding: 6rem 1rem 1rem;
+.main_accueil {
+  max-width: 60vw;
+  margin: auto;
+}
+
+.saviez_vous {
+  text-align: center;
+  margin: 1rem 0;
+}
+.saviez_vous_p {
+  text-align: justify;
+}
+
+.rdv {
+  color: black;
+  font-weight: bold;
+}
+a {
+  color: black;
+}
+.img_cabinet {
+  width: 100vw;
+  padding: 4rem 0 0 0;
+}
+
+.formation {
+  margin-top: 2%;
+  display: flex;
+  text-align: justify;
+
+  div {
+    margin: 0 2% 0 0;
+  }
+}
+.image_osteo {
+  display: flex;
+}
+
+.tests {
+  margin: auto;
 }

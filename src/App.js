@@ -1,5 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
+import "./styles/index.scss";
+
 import Accueil from "./pages/Accueil";
 import MentionLegal from "./pages/MentionLegal";
 import Error from "./pages/Error";
@@ -9,6 +11,7 @@ import DevenirPartenaire from "./pages/DevenirPartenaire";
 import Faq from "./pages/Faq";
 import Contact from "./pages/Contact";
 import TarifsetRemboursements from "./pages/TarifsRemboursements";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,6 +28,7 @@ function App() {
           <Route path="/FAQ" element={<Faq />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

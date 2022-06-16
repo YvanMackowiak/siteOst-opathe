@@ -1,5 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300");
 
+.main {
+  padding: 6rem 1rem 1rem;
+}
+
+h1 {
+  display: inline;
+}
+
+.h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -27,8 +40,8 @@ a {
   width: 100%;
   min-height: 75px;
   padding: 1rem;
-  background-color: black;
-  color: white;
+  background-color: #ffdcba;
+  color: black;
 }
 
 .navbar_links {
@@ -60,13 +73,13 @@ a {
     width: 0;
     height: 100vh;
     padding: 2rem;
-    background-color: black;
+    background-color: #ffdcba;
     transition: all 0.8s ease-out;
   }
 
   .show-nav .navbar_links {
     right: 0;
-    width: 100vw;
+    width: 80vw;
     visibility: visible;
   }
 
@@ -76,7 +89,7 @@ a {
     margin: 0 auto;
     width: 3vw;
     height: 1px;
-    background: white;
+    background: black;
   }
   .navbar_item:last-child::after {
     display: none;
@@ -107,7 +120,7 @@ a {
     height: 3px;
     position: relative;
     border-radius: 3px;
-    background: white;
+    background: black;
     transition: all 0.5s ease-in-out;
   }
 
