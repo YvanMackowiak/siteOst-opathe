@@ -44,4 +44,19 @@ export const Datafaq = [
     reponse:
       "Hydratez-vous bien. Reposez-vous. Vous pouvez pratiquer une activité physique, en respectant un délai d’environ 24h et surtout votre corps. Etirements si, conseillés par votre ostéopathe. Améliorer votre posture au travail, avec les indications données par votre ostéopathe. D’autres conseils peuvent vous être donnés, suivant votre cas.",
   },
+  {
+    question: "Puis-je demander une facture ?",
+    reponse:
+      "Oui, je vous encourage meme a le faire. De nos jour une bonne partie des mutuelles prennent en charge l'ostéopathie et une facture vous sera alors demander. N’hésitez pas à vous rapprocher de votre mutuelle pour connaitre vos modalités de remboursement.",
+  },
+  {
+    question: "A partir de quel âge puis-je consulter un Ostéopathe ?",
+    reponse:
+      "Tout le monde peut venir voir so  ostéopathe du nouveau né, en passant par le sportif, la femme enceinte. Mais aussi suite à un accident (voiture vélo,....). Pour les personnes présentant des troubles digestifs, troubles du sommeils, de la circulation sanguine, maux de tête....Mais aussi la personnes âgées piur des douleurs arthrosiques, après une opération chir en complémentarité des séance de kiné c'est pas mal ça !",
+  },
+  {
+    question: "Comment une consultation d'Osétéopathie se déroule t-elle ?",
+    reponse:
+      "La consultation ostéopathique commence par un interrogatoire ou anamnèse: administratif ( nom prénom date de naissance adresse....) / motif de consultation pourquoi la personne vient me voir / histoire médicale du patient ( ses antécédent médicaux) opération, maladie, traitement en cours....",
+  },
 ];
