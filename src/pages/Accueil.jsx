@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/accueil.scss";
 import cabiner from "../assets/img/cabinet.jpg";
 import maxime from "../assets/img/patient-min.jpg";
+import Slider from "../components/Slider";
 
 const Accueil = () => {
   return (
@@ -24,36 +25,33 @@ const Accueil = () => {
         </p>
         <div className="formation">
           <div>
-            soluta. Facilis, dignissimos. Consequatur, delectus atque. Cumque quae impedit fugit maxime recusandae
-            temporibus quaerat eaque blanditiis debitis sint. Reprehenderit quis a, ab repellat reiciendis doloremque
-            iste harum quia dolor in doloribus. Quia delectus odio ipsam rerum sit assumenda iusto quibusdam obcaecati
-            ipsum consectetur laborum nostrum atque fuga totam exercitationem consequuntur, hic neque error, officia
-            quasi eveniet alias deleniti. Dolorum, facere praesentium. Quisquam, nemo! Tenetur quo vel, odit voluptatum
-            hic reprehenderit fugit est? Velit nemo aliquam earum atque expedita dicta quia blanditiis nihil ullam,
-            eligendi, consequuntur aut hic veritatis optio, quis possimus. Magni inventore dolore soluta! Rem, ad esse.
-            Sequi repellendus accusantium delectus repudiandae, tenetur dolore similique, distinctio a enim at
-            doloremque dolores error obcaecati culpa consequatur libero ut, beatae molestiae quod. Inventore, sit est
-            beatae perspiciatis modi et id consequatur mollitia unde error rerum consectetur aliquam. Veritatis ipsa
-            nobis eveniet dignissimos, iure laudantium obcaecati laborum animi placeat. Provident in possimus veritatis.
-            Animi error tenetur in recusandae? Corporis minus laudantium sunt illo ipsa unde consequuntur dolore ea
-            officia ex quibusdam dolorem qui pariatur rem delectus vero vitae quo, libero est? Vitae, quaerat! Minima
-            tenetur rem, cum voluptate unde rerum similique ipsam explicabo animi molestiae sunt in magni, vero
-            temporibus. Commodi rerum nisi necessitatibus debitis! Velit sapiente placeat nobis minima quae deleniti
-            aperiam. Repudiandae voluptate esse nobis dignissimos quos, quia numquam architecto ratione doloribus
-            asperiores tempora veritatis ab aperiam atque odio laudantium inventore in provident beatae necessitatibus
-            itaque veniam? Quaerat blanditiis ex molestiae.nobis eveniet dignissimos, iure laudantium obcaecati laborum
-            animi placeat. Provident in possimus veritatis. Animi error tenetur in recusandae? Corporis minus laudantium
-            sunt illo ipsa unde consequuntur dolore ea officia ex quibusdam dolorem qui pariatur rem delectus vero vitae
-            quo, libero est? Vitae, quaerat! Minima tenetur rem, cum voluptate unde rerum similique ipsam explicabo
-            animi molestiae sunt in magni, vero temporibus. Commodi rerum nisi necessitatibus debitis! Velit sapiente
-            placeat nobis minima quae deleniti aperiam. Repudiandae voluptate esse nobis dignissimos quos, quia numquam
-            architecto ratione doloribus asperiores tempora veritatis ab aperiam atque odio laudantium inventore in
-            provident beatae necessitatibus itaque veniam? Quaerat blanditiis ex molestiae.
+            <p>
+              {" "}
+              Ostéopathe à Balma depuis 2019 aprés une formation de 5 ans au
+              <a href="https://www.cso-toulouse.fr/" target="blank">
+                {" "}
+                conservatoire supérieur d'ostéopathie
+              </a>
+              , je vous accueille du lundi au samedi au sein du cabinet.
+            </p>
+            <p className="vision">
+              La vision que j'ai de l'ostéopathie est d'apporter aux patients un équilibre à leur corps et du bien-être.
+              Pour une meilleure santé, l'ostéopathie intervient sur tout type de personnes, de la naissance (dont je me
+              suis spécialisé) jusqu'à la fin de vie. Tous ces aspects de mon métier me font l'aimer. C'est pourquoi
+              j'interviens régulièrement chez les séniors, dans des établissements spécialisés.
+            </p>
+            <p className="vision">
+              Le cabinet est idéalement situé au centre vile de Balma (8 Rte de Mons, 31130 Balma) accesible en
+              transport en commun comme en voiture celui-ci dispose d'un grand parking adjacent j'aurais le plaisir de
+              vous recevoir du lundi au samedi de 11h a 19h sur rendez-vous pour les personne ne pouvant pas se deplacer
+              j'effectue egalement des deplacement a domicile merci de me contacter directement.
+            </p>
           </div>
           <div className="image_osteo">
             <img className="tests" src={maxime} alt="Ostéopathe Maxime Nicolaieff" />
           </div>
         </div>
+        <Slider />
       </div>
     </>
   );
