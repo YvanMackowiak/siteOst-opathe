@@ -3,11 +3,26 @@ import { useState } from "react";
 
 const Slider = () => {
   const [slid, setSlid] = useState(false);
+  const [slid1, setSlid1] = useState(true);
+  const [slid2, setSlid2] = useState(true);
+  const [slid3, setSlid3] = useState(true);
 
-  /*setInterval(() => {
+  const slider = (e) => {
     setSlid(!slid);
-  }, 5000);*/
-
+    setSlid1(!slid1);
+  };
+  const slider1 = (e) => {
+    setSlid1(!slid1);
+    setSlid2(!slid2);
+  };
+  const slider2 = (e) => {
+    setSlid2(!slid2);
+    setSlid3(!slid3);
+  };
+  const slider3 = (e) => {
+    setSlid3(!slid3);
+    setSlid(!slid);
+  };
   return (
     <>
       <div className={`avis ${slid && "avis_actif"}`}>
@@ -19,8 +34,9 @@ const Slider = () => {
         <p>⭐⭐⭐⭐⭐</p>
         <p>Rivia POULAIN-BRODIEN</p>
         <p>visité enJuin 2022</p>
-      </div>
-      <div className="avis avis_actif">
+        <div onClick={slider}>➡️</div>
+      </div>{" "}
+      <div className={`avis ${slid1 && "avis_actif"}`}>
         <p>
           Infirmière, sportive et dynamique, mon corps est mis a rude épreuve Je ne peut que recommander Max qui m’a
           remise d’aplomb ! Petits plus constatés : Rdv facile a obtenir via doctolib , plusieurs créneaux Praticien a
@@ -31,8 +47,9 @@ const Slider = () => {
         <p>⭐⭐⭐⭐⭐</p>
         <p>Durand Magalie</p>
         <p>visité en Novembre 2021</p>
+        <div onClick={slider1}>➡️</div>
       </div>
-      <div className="avis avis_actif">
+      <div className={`avis ${slid2 && "avis_actif"}`}>
         <p>
           Je trouve cet ostéopathe extrêmement compétent, il prends le temps et sait très bien écouter ..... j’y suis
           allé pour une douleur aux cervicales et ai été soulagée immédiatement. Je recommande
@@ -40,8 +57,9 @@ const Slider = () => {
         <p>⭐⭐⭐⭐⭐</p>
         <p>julien corinne</p>
         <p>visité en Septembre 2020</p>
+        <div onClick={slider2}>➡️</div>
       </div>
-      <div className="avis avis_actif">
+      <div className={`avis ${slid3 && "avis_actif"}`}>
         <p>
           J'y suis allée sans grande conviction car j'avais déjà un ostéopathe compétent, et bien il est excellent et je
           pense que je vais en faire mon ostéo régulier
@@ -49,6 +67,7 @@ const Slider = () => {
         <p>⭐⭐⭐⭐⭐</p>
         <p>valérie watine</p>
         <p>visité en Juin 2021</p>
+        <div onClick={slider3}>➡️</div>
       </div>
     </>
   );
