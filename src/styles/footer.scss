@@ -1,11 +1,12 @@
 .main {
-  min-height: 98vh;
+  min-height: calc(100vh - 50px);
 }
 
 footer {
   background-color: #ffdcba;
   display: flex;
   justify-content: space-between;
+
   div {
     margin: 0 2% 0 2%;
   }
@@ -13,5 +14,15 @@ footer {
 .copyright {
   a {
     line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  footer {
+    display: block;
+    div {
+      margin-top: 2%;
+      margin-left: 20%;
+    }
   }
 }

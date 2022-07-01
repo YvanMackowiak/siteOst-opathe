@@ -14,7 +14,7 @@ const Footer = () => {
       </div>
       <div>
         <ul>
-          <li>06 43 80 90 61</li>
+          <li>05 61 24 25 87</li>
           <li>8 Rte de Mons, 31130 Balma</li>
         </ul>
       </div>

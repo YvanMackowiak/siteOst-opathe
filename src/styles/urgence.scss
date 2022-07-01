@@ -1,0 +1,53 @@
+.main_urgence {
+  max-width: 60vw;
+  margin: auto;
+  text-align: justify;
+}
+
+.titre_urgence {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.liste_urgence {
+  margin-top: 2%;
+}
+
+.map_rdv {
+  display: flex;
+  margin-top: 3%;
+}
+
+.map {
+  width: 25vw;
+  margin: 0 0 0 2%;
+}
+
+.map:hover {
+  width: 150%;
+}
+
+.map_blabla {
+  margin-top: 10%;
+}
+
+.doctolib {
+  text-align: center;
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 767px) {
+  .main_urgence {
+    max-width: 100%;
+  }
+  .map_rdv {
+    display: block;
+  }
+  .map {
+    width: 100%;
+    margin: 0 0 0 2%;
+  }
+  .map:hover {
+    width: 100%;
+  }
+}

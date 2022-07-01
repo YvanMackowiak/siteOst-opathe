@@ -1,0 +1,47 @@
+.main_partenaire {
+  max-width: 60vw;
+  margin: auto;
+}
+
+.partenaire_titre {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.partenaire {
+  display: flex;
+  margin-top: 3%;
+}
+
+.partenaire_text {
+  margin: 8% 2% 0 0;
+  text-align: justify;
+}
+
+.partenaire_img {
+  height: 30vh;
+}
+
+.main_img {
+  width: 100%;
+}
+
+.entreprise {
+  margin-top: 3%;
+}
+
+.entreprise_p {
+  margin-bottom: 2%;
+}
+
+@media screen and (max-width: 767px) {
+  .main_partenaire {
+    max-width: 100%;
+  }
+  .partenaire {
+    display: block;
+  }
+  .img_patenaire {
+    text-align: center;
+  }
+}

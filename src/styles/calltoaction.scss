@@ -1,0 +1,38 @@
+.container_call {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 5%;
+  padding: 0 2% 0 2%;
+}
+
+.bule {
+  text-align: center;
+  background-color: rgba(133, 126, 126, 0.253);
+  margin: 6rem 0 0 0;
+  padding: 2%;
+  border-radius: 3%;
+  width: 300px;
+  height: 200px;
+}
+
+.test {
+  border: 2px solid #ffdcba;
+  width: 129px;
+  height: 129px;
+  border-radius: 200px;
+  line-height: 160px;
+  display: inline-block;
+  margin-top: -50px;
+  background-color: #ffdcba;
+}
+
+.bule:hover {
+  background-color: #ffdcba;
+}
+
+@media screen and (max-width: 767px) {
+  .container_call {
+    justify-content: center;
+  }
+}

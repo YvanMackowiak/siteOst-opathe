@@ -3,11 +3,13 @@ import "../styles/accueil.scss";
 import cabiner from "../assets/img/cabinet.jpg";
 import maxime from "../assets/img/patient-min.jpg";
 import Slider from "../components/Slider";
+import CallToAction from "../components/CallToAction";
 
 const Accueil = () => {
   return (
     <>
       <img className="img_cabinet" src={cabiner} alt="cabinet d'ostéopathe" />
+      <CallToAction />
       <div className=" main_accueil">
         <h2 className="saviez_vous">Le saviez-vous ?</h2>
         <p className="saviez_vous_p">
@@ -24,7 +26,7 @@ const Accueil = () => {
           </a>
         </p>
         <div className="formation">
-          <div>
+          <div className="container_vision">
             <p>
               {" "}
               Ostéopathe à Balma depuis 2019 aprés une formation de 5 ans au

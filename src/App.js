@@ -9,7 +9,7 @@ import Header from "./components/Header";
 import VotreOsteopathe from "./pages/VotreOsteopathe";
 import DevenirPartenaire from "./pages/DevenirPartenaire";
 import Faq from "./pages/Faq";
-import Contact from "./pages/Contact";
+import Urgence from "./pages/Urgence";
 import TarifsetRemboursements from "./pages/TarifsRemboursements";
 import Footer from "./components/Footer";
 
@@ -26,7 +26,7 @@ function App() {
           <Route path="/VotreOsteopathe" element={<VotreOsteopathe />} />
           <Route path="/Partenaire" element={<DevenirPartenaire />} />
           <Route path="/FAQ" element={<Faq />} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Urgence" element={<Urgence />} />
         </Routes>
         <Footer />
       </BrowserRouter>

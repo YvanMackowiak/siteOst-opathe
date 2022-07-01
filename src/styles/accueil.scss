@@ -19,7 +19,7 @@ a {
   color: black;
 }
 .img_cabinet {
-  width: 100vw;
+  width: 100%;
   padding: 4rem 0 0 0;
 }
 
@@ -45,8 +45,27 @@ a {
 }
 .avis {
   text-align: center;
+  margin: 3% 0 2% 0;
 }
 
 .avis_actif {
   display: none;
+}
+.container_vision {
+  padding-top: 3%;
+}
+
+@media screen and (max-width: 767px) {
+  .main_accueil {
+    max-width: 90%;
+    margin: auto;
+  }
+  .formation {
+    display: block;
+  }
+}
+@media screen and (max-width: 400px) {
+  .img_cabinet {
+    height: 200px;
+  }
 }

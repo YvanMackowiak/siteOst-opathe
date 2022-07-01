@@ -47,16 +47,16 @@ export const Datafaq = [
   {
     question: "Puis-je demander une facture ?",
     reponse:
-      "Oui, je vous encourage meme a le faire. De nos jour une bonne partie des mutuelles prennent en charge l'ostéopathie et une facture vous sera alors demander. N’hésitez pas à vous rapprocher de votre mutuelle pour connaitre vos modalités de remboursement.",
+      "Oui, je vous encourage même à le faire. De nos jours une bonne partie des mutuelles prennent en charge l'ostéopathie et une facture vous sera alors demandée. N’hésitez pas à vous rapprocher de votre mutuelle pour connaître vos modalités de remboursement.",
   },
   {
     question: "A partir de quel âge puis-je consulter un Ostéopathe ?",
     reponse:
-      "Tout le monde peut venir voir so  ostéopathe du nouveau né, en passant par le sportif, la femme enceinte. Mais aussi suite à un accident (voiture vélo,....). Pour les personnes présentant des troubles digestifs, troubles du sommeils, de la circulation sanguine, maux de tête....Mais aussi la personnes âgées piur des douleurs arthrosiques, après une opération chir en complémentarité des séance de kiné c'est pas mal ça !",
+      "Tout le monde peut venir voir son ostéopathe, du nouveau né au senior, en passant par le sportif ou encore la femme enceinte. Mais aussi suite à un accident (voiture, vélo...). Pour les personnes présentant des troubles digestifs, troubles du sommeil, de la circulation sanguine, maux de tête... Mais aussi la personnes âgée pour des douleurs arthrosiques, après une opération chirurgicale en complémentarité des séances de kiné",
   },
   {
-    question: "Comment une consultation d'Osétéopathie se déroule t-elle ?",
+    question: "Comment une consultation d'Ostéopathie se déroule t-elle ?",
     reponse:
-      "La consultation ostéopathique commence par un interrogatoire ou anamnèse: administratif ( nom prénom date de naissance adresse....) / motif de consultation pourquoi la personne vient me voir / histoire médicale du patient ( ses antécédent médicaux) opération, maladie, traitement en cours....",
+      "La consultation ostéopathique commence par un interrogatoire ou anamnèse: administratif (nom, prénom, date de naissance, adresse....) / motif de consultation / historique médical du patient (ses antécédents médicaux: opérations, traitements en cours...)",
   },
 ];
